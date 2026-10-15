@@ -1,0 +1,14 @@
+{
+    "name": "scamcheck/scamcheck-redis",
+    "description": "Job and Internship Scam Detection Platform using PHP and Redis",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "predis/predis": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScamCheck\\": "includes/"
+        }
+    }
+}

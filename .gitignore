@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+config.local.php
+
+# Logs and temporary files
+*.log
+/tmp/
+/cache/
+
+# Local database dumps and backups
+*.rdb
+*.aof
+dump.rdb
+*.bak
+*.sql
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
